@@ -10,7 +10,7 @@
 http://site.500bits.com
 
 By Kinh Luân
-Emai: buihuynh.kinhluan@gmail.com
-Phone +84984206548
+
+Facebook: http://fb.com/kinhluan.buihuynh
 
 Copyright 2015
