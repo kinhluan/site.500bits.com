@@ -123,7 +123,9 @@ Hello you! I'm Kinh Luân.
                         <h2 class="section-heading">Hello, I'm <strong>500BITS.COM</strong></h2>
                         <hr class="light">
                         <p class="text-faded">I was set up by <strong>KINH LUÂN</strong>.</p>
-                        <p class="text-faded">He's a software engineer living on the Ho Chi Minh City/ Vietnam.</p> 
+                        <p class="text-faded">He's a software engineer living on the Ho Chi Minh City/ Vietnam.</p>
+                        <div class="fb-follow" data-href="https://www.facebook.com/kinhluan.buihuynh" data-layout="button_count" data-show-faces="false"></div>
+        <div class="fb-like" data-href="http://luan.500bits.com/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div> 
                     </div>
                 </div>
             </div>
@@ -153,6 +155,24 @@ Hello you! I'm Kinh Luân.
                 console.log('http://site.500bits.com');
                 console.log('Hello you! I am Kinh Luân.');
             }
+        </script>
+        
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                appId      : '968961053163552',
+                xfbml      : true,
+                version    : 'v2.4'
+                });
+            };
+            
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
         </script>
         
         <!-- GA -->
